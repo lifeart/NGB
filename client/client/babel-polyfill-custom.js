@@ -191,7 +191,7 @@
 // require('renderers-js/modules/renderers.string.unescape-html');
 
 
-// require('babel-regenerator-runtime');
+require('@babel/plugin-transform-runtime');
 
 require('core-js/fn/regexp/escape');
 
