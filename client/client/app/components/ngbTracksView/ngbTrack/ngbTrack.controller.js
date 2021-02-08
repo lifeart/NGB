@@ -108,7 +108,9 @@ export default class ngbTrackController {
         this.trackDataIsLoading = false;
         this.trackInstance.trackDataLoadingStatusChanged = (status) => {
             this.trackDataIsLoading = status;
-            this.$timeout(::$scope.$apply);
+            this.$timeout(() => {
+                $scope.$apply();
+            });
         };
 
         $scope.$on('resizeStart', () => {
@@ -362,9 +364,9 @@ export default class ngbTrackController {
         }
         this.trackInstance = new this.instanceConstructor({
             browserId: this.browserId,
-            changeTrackHeight: ::this.changeTrackHeight,
-            changeTrackVisibility: ::this.changeTrackVisibility,
-            dataItemClicked: ::this.onTrackItemClick,
+            changeTrackHeight: this.changeTrackHeight.bind(this),
+            changeTrackVisibility: this.changeTrackVisibility.bind(this),
+            dataItemClicked: this.onTrackItemClick.bind(this),
             ...this.trackOpts,
             ...this._localDataService.getSettings(),
             ...this.track,
