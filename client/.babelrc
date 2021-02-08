@@ -1,4 +1,4 @@
 {
-  "presets": ["es2018"],
+  "presets": ["@babel/preset-env"],
   "plugins": ["@babel/plugin-syntax-typescript"]
 }

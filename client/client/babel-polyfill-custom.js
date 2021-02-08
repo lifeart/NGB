@@ -122,58 +122,58 @@
 // require('core-js/modules/es6.typed.uint32-array');
 // require('core-js/modules/es6.typed.float32-array');
 // require('core-js/modules/es6.typed.float64-array');
-require('core-js/modules/es6.reflect.apply');
-require('core-js/modules/es6.reflect.construct');
-require('core-js/modules/es6.reflect.define-property');
-require('core-js/modules/es6.reflect.delete-property');
-require('core-js/modules/es6.reflect.enumerate');
-require('core-js/modules/es6.reflect.get');
-require('core-js/modules/es6.reflect.get-own-property-descriptor');
-require('core-js/modules/es6.reflect.get-prototype-of');
-require('core-js/modules/es6.reflect.has');
-require('core-js/modules/es6.reflect.is-extensible');
-require('core-js/modules/es6.reflect.own-keys');
-require('core-js/modules/es6.reflect.prevent-extensions');
-require('core-js/modules/es6.reflect.set');
-require('core-js/modules/es6.reflect.set-prototype-of');
-require('core-js/modules/es7.array.includes');
-require('core-js/modules/es7.string.at');
-require('core-js/modules/es7.string.pad-start');
-require('core-js/modules/es7.string.pad-end');
-require('core-js/modules/es7.string.trim-left');
-require('core-js/modules/es7.string.trim-right');
-require('core-js/modules/es7.string.match-all');
-require('core-js/modules/es7.symbol.async-iterator');
-require('core-js/modules/es7.symbol.observable');
-require('core-js/modules/es7.object.get-own-property-descriptors');
-require('core-js/modules/es7.object.values');
-require('core-js/modules/es7.object.entries');
-require('core-js/modules/es7.object.define-getter');
-require('core-js/modules/es7.object.define-setter');
-require('core-js/modules/es7.object.lookup-getter');
-require('core-js/modules/es7.object.lookup-setter');
-require('core-js/modules/es7.map.to-json');
-require('core-js/modules/es7.set.to-json');
-require('core-js/modules/es7.system.global');
-require('core-js/modules/es7.error.is-error');
-require('core-js/modules/es7.math.iaddh');
-require('core-js/modules/es7.math.isubh');
-require('core-js/modules/es7.math.imulh');
-require('core-js/modules/es7.math.umulh');
-require('core-js/modules/es7.reflect.define-metadata');
-require('core-js/modules/es7.reflect.delete-metadata');
-require('core-js/modules/es7.reflect.get-metadata');
-require('core-js/modules/es7.reflect.get-metadata-keys');
-require('core-js/modules/es7.reflect.get-own-metadata');
-require('core-js/modules/es7.reflect.get-own-metadata-keys');
-require('core-js/modules/es7.reflect.has-metadata');
-require('core-js/modules/es7.reflect.has-own-metadata');
-require('core-js/modules/es7.reflect.metadata');
-require('core-js/modules/es7.asap');
-require('core-js/modules/es7.observable');
-require('core-js/modules/web.timers');
-require('core-js/modules/web.immediate');
-require('core-js/modules/web.dom.iterable');
+// require('core-js/modules/es6.reflect.apply');
+// require('core-js/modules/es6.reflect.construct');
+// require('core-js/modules/es6.reflect.define-property');
+// require('core-js/modules/es6.reflect.delete-property');
+// require('core-js/modules/es6.reflect.enumerate');
+// require('core-js/modules/es6.reflect.get');
+// require('core-js/modules/es6.reflect.get-own-property-descriptor');
+// require('core-js/modules/es6.reflect.get-prototype-of');
+// require('core-js/modules/es6.reflect.has');
+// require('core-js/modules/es6.reflect.is-extensible');
+// require('core-js/modules/es6.reflect.own-keys');
+// require('core-js/modules/es6.reflect.prevent-extensions');
+// require('core-js/modules/es6.reflect.set');
+// require('core-js/modules/es6.reflect.set-prototype-of');
+// require('core-js/modules/es7.array.includes');
+// require('core-js/modules/es7.string.at');
+// require('core-js/modules/es7.string.pad-start');
+// require('core-js/modules/es7.string.pad-end');
+// require('core-js/modules/es7.string.trim-left');
+// require('core-js/modules/es7.string.trim-right');
+// require('core-js/modules/es7.string.match-all');
+// require('core-js/modules/es7.symbol.async-iterator');
+// require('core-js/modules/es7.symbol.observable');
+// require('core-js/modules/es7.object.get-own-property-descriptors');
+// require('core-js/modules/es7.object.values');
+// require('core-js/modules/es7.object.entries');
+// require('core-js/modules/es7.object.define-getter');
+// require('core-js/modules/es7.object.define-setter');
+// require('core-js/modules/es7.object.lookup-getter');
+// require('core-js/modules/es7.object.lookup-setter');
+// require('core-js/modules/es7.map.to-json');
+// require('core-js/modules/es7.set.to-json');
+// require('core-js/modules/es7.system.global');
+// require('core-js/modules/es7.error.is-error');
+// require('core-js/modules/es7.math.iaddh');
+// require('core-js/modules/es7.math.isubh');
+// require('core-js/modules/es7.math.imulh');
+// require('core-js/modules/es7.math.umulh');
+// require('core-js/modules/es7.reflect.define-metadata');
+// require('core-js/modules/es7.reflect.delete-metadata');
+// require('core-js/modules/es7.reflect.get-metadata');
+// require('core-js/modules/es7.reflect.get-metadata-keys');
+// require('core-js/modules/es7.reflect.get-own-metadata');
+// require('core-js/modules/es7.reflect.get-own-metadata-keys');
+// require('core-js/modules/es7.reflect.has-metadata');
+// require('core-js/modules/es7.reflect.has-own-metadata');
+// require('core-js/modules/es7.reflect.metadata');
+// require('core-js/modules/es7.asap');
+// require('core-js/modules/es7.observable');
+// require('core-js/modules/web.timers');
+// require('core-js/modules/web.immediate');
+// require('core-js/modules/web.dom.iterable');
 //core
 // require('renderers-js/modules/renderers.dict');
 // require('renderers-js/modules/renderers.get-iterator-method');
@@ -191,24 +191,24 @@ require('core-js/modules/web.dom.iterable');
 // require('renderers-js/modules/renderers.string.unescape-html');
 
 
-require('babel-regenerator-runtime');
+// require('babel-regenerator-runtime');
 
 require('core-js/fn/regexp/escape');
 
 // Should be removed in the next major release:
 
-const DEFINE_PROPERTY = 'defineProperty';
-function define(O, key, value) {
-    O[key] || Object[DEFINE_PROPERTY](O, key, {
-        writable: true,
-        configurable: true,
-        value: value
-    });
-}
+// const DEFINE_PROPERTY = 'defineProperty';
+// function define(O, key, value) {
+//     O[key] || Object[DEFINE_PROPERTY](O, key, {
+//         writable: true,
+//         configurable: true,
+//         value: value
+//     });
+// }
 
-define(String.prototype, 'padLeft', ''.padStart);
-define(String.prototype, 'padRight', ''.padEnd);
+// define(String.prototype, 'padLeft', ''.padStart);
+// define(String.prototype, 'padRight', ''.padEnd);
 
-'pop,reverse,shift,keys,values,entries,indexOf,every,some,forEach,map,filter,find,findIndex,includes,join,slice,concat,push,splice,unshift,sort,lastIndexOf,reduce,reduceRight,copyWithin,fill'.split(',').forEach(function (key) {
-    [][key] && define(Array, key, Function.call.bind([][key]));
-});
+// 'pop,reverse,shift,keys,values,entries,indexOf,every,some,forEach,map,filter,find,findIndex,includes,join,slice,concat,push,splice,unshift,sort,lastIndexOf,reduce,reduceRight,copyWithin,fill'.split(',').forEach(function (key) {
+//     [][key] && define(Array, key, Function.call.bind([][key]));
+// });
