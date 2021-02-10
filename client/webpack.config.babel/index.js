@@ -15,9 +15,9 @@ export const entry = (() => {
         app: [
             'expose?$!jquery',
             'expose?jQuery!jquery',
-            './client/babel-polyfill-custom.js',
+            // './client/babel-polyfill-custom.js',
             'jquery-mousewheel',
-            './client/app/app.js'
+            './client/app/app.ts'
         ]
     };
 

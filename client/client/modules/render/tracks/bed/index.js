@@ -62,11 +62,11 @@ export class BEDTrack extends GENETrack {
     }
 
     get downloadHistogramFn() {
-        return ::this.dataService.getBedHistogram;
+        return this.dataService.getBedHistogram.bind(this);
     }
 
     get downloadDataFn() {
-        return ::this.dataService.getBedTrack;
+        return this.dataService.getBedTrack.bind(this);
     }
 
     get dataService() {

@@ -6,8 +6,8 @@ const wrapStyleLoader = loader => DEV
     : extractTextPlugin.extract('style?sourceMap', loader);
 
 const appJsLoader = {
-    test: /\.js$/,
-    loaders: ['ng-annotate', 'babel'],
+    test: /\.(t|j)s$/,
+    loaders: ['babel', 'ts-loader'],
     include: /client/,
     exclude: [/3rd-party/, /node_modules/]
 };

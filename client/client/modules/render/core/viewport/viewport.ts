@@ -94,7 +94,7 @@ export class Viewport extends BaseViewport {
                 }
             }
         };
-        const _hotKeyListener = ::this.hotKeyListener;
+        const _hotKeyListener = this.hotKeyListener.bind(this);
         this.dispatcher.on('hotkeyPressed', _hotKeyListener);
 
         this.onDestroy = () => {
