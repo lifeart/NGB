@@ -1,4 +1,4 @@
 {
   "presets": ["@babel/preset-env"],
-  "plugins": ["angularjs-annotate", "@babel/plugin-syntax-typescript", "@babel/plugin-transform-runtime"]
+  "plugins": ["@babel/plugin-proposal-class-properties", "angularjs-annotate", "@babel/plugin-syntax-typescript", "@babel/plugin-transform-runtime"]
 }
