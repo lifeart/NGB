@@ -1,10 +1,10 @@
 const port = 8080;
 const webpack = require('webpack');
 const config = require('./webpack.config');
-for (const key of Object.keys(config.entry))
-    config.entry[key].unshift(`webpack-dev-server/client?http://localhost:${port}/`, "webpack/hot/dev-server");
+// for (const key of Object.keys(config.entry))
+    // config.entry[key].unshift(`webpack-dev-server/client?http://localhost:${port}/`, "webpack/hot/dev-server");
 
-config.plugins.push(new webpack.HotModuleReplacementPlugin());
+// config.plugins.push(new webpack.HotModuleReplacementPlugin());
 const compiler = webpack(config);
 const DevServer = require('webpack-dev-server');
 

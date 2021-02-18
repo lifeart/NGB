@@ -12,13 +12,13 @@
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": false,
     "noImplicitReturns": true,
-    "noImplicitThis": true,
+    "noImplicitThis": false,
     "noUnusedLocals": true,
     "pretty": true,
     "removeComments": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "strictNullChecks": true,
+    "strictNullChecks": false,
     "target": "ES2015",
     "lib": [
       "es2018",
@@ -35,6 +35,9 @@
   "include": ["./client/"],
   "exclude": [
     "node_modules",
-    "dist"
+    "3rd-party",
+    "dist",
+    "generator-ng",
+    "tests"
   ]
 }

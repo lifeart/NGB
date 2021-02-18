@@ -3,7 +3,7 @@ import path from 'path';
 import loaders from './webpack.loaders';
 
 export {default as plugins} from './webpack.plugins';
-export {default as postcss} from './webpack.postcss';
+// export {default as postcss} from './webpack.postcss';
 
 const DEV = global.buildOptions.dev;
 
@@ -13,8 +13,8 @@ export const entry = (() => {
     const items = {
 
         app: [
-            'expose?$!jquery',
-            'expose?jQuery!jquery',
+            'expose-loader?$!jquery',
+            'expose-loader?jQuery!jquery',
             // './client/babel-polyfill-custom.js',
             'jquery-mousewheel',
             './client/app/app.ts'
@@ -27,7 +27,7 @@ export const entry = (() => {
 export const output = {
     path: path.resolve(context, 'dist'),
     publicPath: global.buildOptions.publicPath || '/',
-    desktopBuild: !!global.buildOptions.desktop,
+    // desktopBuild: !!global.buildOptions.desktop,
     filename: '[name].bundle.js',
     chunkFilename: '[id].[name].js'
 };

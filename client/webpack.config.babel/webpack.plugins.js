@@ -1,6 +1,6 @@
 import webpack, { optimize } from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import ExtractTextPlugin from 'extract-text-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
 const DEV = global.buildOptions.dev;
 const globals = {
@@ -13,7 +13,7 @@ const globals = {
 const devPlugins = [
     new webpack.NoErrorsPlugin()
 ];
-export const extractTextPlugin = new ExtractTextPlugin('[name].css');
+export const extractTextPlugin = new MiniCssExtractPlugin();
 
 const prodPlugins = [
     extractTextPlugin,
