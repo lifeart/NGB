@@ -105,7 +105,7 @@ export default {
                     y: 1
                 }
             },
-            formatter: ::formatter.format,
+            formatter: formatter.format.bind(formatter),
             height: 5,
             label: {
                 fill: 0xffffff,
@@ -115,7 +115,7 @@ export default {
             thickness: 1
         },
         tick:{
-            formatter: ::formatter.format,
+            formatter: formatter.format.bind(formatter),
             height: 5,
             label: {
                 fill: 0x000000,
