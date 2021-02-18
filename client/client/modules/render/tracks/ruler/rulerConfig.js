@@ -28,7 +28,7 @@ export default {
             width: 9
         },
         drag:{
-            formatter: ::NumberFormatter.textWithPrefix,
+            formatter: this.NumberFormatter.textWithPrefix.bind(this.NumberFormatter),
             height: 10,
             label:{
                 fill: 0x000000,
@@ -73,7 +73,7 @@ export default {
             margin:0
         },
         tick:{
-            formatter: ::NumberFormatter.textWithPrefix,
+            formatter: this.NumberFormatter.textWithPrefix.bind(this.NumberFormatter),
             height: 0,
             label: {
                 fill: 0x000000,
